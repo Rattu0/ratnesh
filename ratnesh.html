@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="menubar">
+            <div class="logo">
+                <h2>PORTFOLIO</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#ghar">Home</a></li>
+
+                    <li><a href="#padhai">Education</a></li>
+                    <li><a href="#rat">Skills And Projects</a></li>
+
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+        <div class="home " id="ghar">
+            <div class="left">
+                <h3>Hi I Am</h3>
+                <h2>Ratnesh Vishwakarma</h2>
+                <p>From Santacruz,Mumbai,Maharashtra <br>Studying in Second Year of computer engineering in
+                    <br>Shivajirao s. jondhale collage of engineering dombivali
+                </p>
+            </div>
+            <div class="right">
+                <img src="photo/ratnesh.jpg">
+            </div>
+        </div>
+
+
+        <div class="Education" id="padhai">
+
+            <div class="first dabba">
+                <h3>
+                    <li>2019</li>
+                </h3>
+                <div class="box">
+                    <p>SSC(10th Class)</p>
+                    <p>Score : 82.20%</p>
+                    <p>School : New Model English high School, Santacruz(E)</p>
+                    <p>Board : Maharashtra Board</p>
+                </div>
+            </div>
+            <div class="third dabba">
+                <h3>
+                    <li>2021</li>
+                </h3>
+                <div class="box">
+                    <p>HSC(12th Class)</p>
+                    <p>Score : 91.20</p>
+                    <p>School : Shri G.P.M. Degree Collage Of Science and Commerce,Andheri(E)</p>
+                    <p>Board : Maharashtra Board</p>
+                </div>
+            </div>
+
+            <div class="second dabba">
+                <h3>
+                    <li>2022</li>
+                </h3>
+                <div class="box">
+                    <p>Entrance Exam</p>
+                    <p>MHT-CET : 80.20%tile</p>
+                    <p>JEE Mains : 69.00%tile</p>
+                </div>
+            </div>
+            <div class="fourth dabba">
+                <h3>
+                    <li>2023</li>
+                </h3>
+                <div class="box">
+                    <p>FIRST Year</p>
+                    <p>CGPA : 6.79</p>
+                    <p>Collage : Shivajirao S. Jondhale Collage Of Engineering,Dombivali(E)</p>
+                    <p>University : Mumbai University</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="skil" id="rat">
+            <div class="web ratnesh">
+                <img src="photo/website.jpg" alt="">
+                <h3>Fronted Web Development</h3>
+                <div class="parda hello">
+                    <p>I Use HTML, CSS And Javascript<br>for fronted web-development</p>
+                    <p>Projects:1.I have created a personal portfolio website<br>
+                        2.Stone-Paper-Scissor Game(most of javascript is used) </p>
+
+                </div>
+            </div>
+            <div class="code ratnesh">
+                <img src="photo/c.jpg" alt="">
+                <h3>Python Programming</h3>
+                <div class="parda hi">
+                    <p>I Know Basics Of python</p>
+                    <p>Projects:Tic-Tac-Toe game</p>
+                </div>
+            </div>
+            <div class="lang ratnesh">
+                <img src="photo/cp.jpg" alt="">
+                <h3>C programming</p>
+                </h3>
+                <div class="parda hi">
+                    <p>I Known all Topics Related To C programming<br></p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!----------
+    
+    <div class="Socialmedia" id="medi">
+      
+        <div class="media">
+            <div class="link">
+              <a href="www.instagram.com"><img src="photo/instagram.png" height="30px" width="30px" ></a>
+            </div>
+            <div class="link">
+               <a href="www.facebook.com"> <img src="photo/facebook.png" height="30px" width="30px"></a>
+            </div>
+            <div class="link">
+               <a href="www.twitter.com"><img src="photo/twitter (1).png"height="30px" width="30px" ></a>
+            </div>
+            <div class="link">
+              <a href="www.whatsapp.com">  <img src="photo/whatsapp.png" height="30px" width="30px"></a>
+            </div>
+        </div>
+   
+    </div>
+    ----->
+
+
+
+        <section class="contact-content" id="contact">
+            <div class="container">
+                <div class="contact-title">
+                    <h4>Contact Me</h4>
+                  
+                </div>
+                <div class="contact">
+                    <form name="submitToGoogleSheet">
+                        <input type="text" name="NAME" placeholder="Name" required>
+                        <input type="email" name="EMAIL" placeholder="Email" required>
+                        <input type="text" name="SUBJECT" placeholder="Subject">
+                        <textarea name="MESSAGE" placeholder="Message"></textarea>
+                        <input type="submit" value="Send Message" class="submit">
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <small class="message">Thanks for visiting and happy coding!</small>
+            <small class="copyright">&copy; Copyright 2023. All rights reserved.</small>
+    
+</body>
+<script>
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzUSaaX3XmlE5m9YLOHOBrRuCh2Ohv49N9bs4bew7xPd1qlgpvXtnudDs5Xhp3jF-Fx/exec';
+    const form = document.forms['submitToGoogleSheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function () {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+      
+   
+
+</script>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+
+
+</html>
